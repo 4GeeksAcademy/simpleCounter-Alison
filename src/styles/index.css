@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.body {
+    background-color: white;
+    color: rgb(183, 92, 229);
+}
+
+.card-body {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    padding: 10px;
+
+}
+
+.card-title {
+    font-size: 50px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(9, 45, 253);
+    color: white;
+    border: 1px solid #0355ed;
+    
+    width: 80px;
+    height: 120px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 10px;
+}

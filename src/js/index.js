@@ -15,8 +15,8 @@ let counter = 0;
 let app = ReactDOM.createRoot(document.getElementById('app'))
 app.render(<SecondsCounter seconds={counter} />);
 
-setInterval(()=> {
+setInterval(() => {
     counter++;
     app.render(<SecondsCounter seconds={counter} />);
-},1000)
+}, 1000)
 
